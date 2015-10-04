@@ -1,5 +1,5 @@
 {
-  "name": "default-map",
+  "name": "defaultmap",
   "version": "0.0.1",
   "description": "A map that gives you a default value if a key is not present.",
   "main": "index.js",
