@@ -1,0 +1,19 @@
+{
+  "name": "default-map",
+  "version": "0.0.1",
+  "description": "A map that gives you a default value if a key is not present.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timruffles/default-map.git"
+  },
+  "author": "Tim Ruffles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timruffles/default-map/issues"
+  },
+  "homepage": "https://github.com/timruffles/default-map#readme"
+}
