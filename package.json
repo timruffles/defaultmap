@@ -1,6 +1,6 @@
 {
   "name": "defaultmap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A map that gives you a default value if a key is not present.",
   "main": "defaultmap.js",
   "scripts": {
