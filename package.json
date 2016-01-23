@@ -1,6 +1,6 @@
 {
   "name": "defaultmap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A map that gives you a default value if a key is not present.",
   "main": "defaultmap.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timruffles/default-map.git"
+    "url": "git+https://github.com/timruffles/defaultmap.git"
   },
   "files": [
     "README.md",
@@ -17,9 +17,9 @@
   "author": "Tim Ruffles",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timruffles/default-map/issues"
+    "url": "https://github.com/timruffles/defaultmap/issues"
   },
-  "homepage": "https://github.com/timruffles/default-map#readme",
+  "homepage": "https://github.com/timruffles/defaultmap#readme",
   "devDependencies": {
     "chai": "^3.3.0",
     "mocha": "^2.3.3"
