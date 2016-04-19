@@ -29,16 +29,16 @@
 const NOT_PROVIDED = {};
 
 class DefaultMap extends Map {
-	constructor(members, defaulter) {
-		super(members);
-    if(typeof defaulter !== 'function') {
-      throw new TypeError("DefaultMap requires a defaulter function");
-    }
-		this._default = defaulter;
-	}
-
-	get(k) {
-		if(this.has(k)) {
+   constructor(members, defaulter) {
+     super(members);
+     if(typeof defaulter !== 'function') {
+       throw new TypeError("DefaultMap requires a defaulter function");
+     }
+     this._default = defaulter;
+   }
+   
+   get(k) {
+    if(this.has(k)) {
       return super.get(k);
     } else {
       var setAndReturn = NOT_PROVIDED;
@@ -53,7 +53,7 @@ class DefaultMap extends Map {
         return setAndReturn;
       }
     }
-	}
+  }
 };
 
 
